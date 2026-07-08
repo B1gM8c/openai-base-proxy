@@ -1,6 +1,6 @@
 # OpenAI Base Proxy
 
-[English](README.md) | [Simplified Chinese](docs/README.zh-CN.md) | [Japanese](docs/README.ja.md) | [Spanish](docs/README.es.md)
+[English](README.md) | [简体中文](docs/README.zh-CN.md) | [日本語](docs/README.ja.md) | [Español](docs/README.es.md)
 
 OpenAI Base Proxy is a small Rust/Axum transparent proxy for OpenAI-compatible APIs. It is designed for deployments where clients need a stable, nearby, OpenAI-compatible `base_url` while preserving OpenAI API semantics: request fields are not validated, rewritten, or narrowed by the proxy.
 
